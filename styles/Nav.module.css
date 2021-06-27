@@ -1,0 +1,23 @@
+.nav{
+    background-color: black;
+    color:white;
+    padding: 8px 4px;
+}
+
+.navlist {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.navlink{
+    margin:0px 20px;
+    padding:4px;
+    border-bottom:2px solid black;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+.navlink:hover{
+    border-bottom: 2px solid white;
+}
